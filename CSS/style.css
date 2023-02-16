@@ -4,6 +4,12 @@ body {
   margin: auto;
 }
 
+@media screen and (max-width: 768px) {
+  p {
+    color: blue;
+  }
+}
+
 h3,
 p {
   font-size: 0.95em;
@@ -167,7 +173,7 @@ span {
   border-spacing: 20px;
   width: 250px;
   height: 200px;
-  box-shadow: 2px 2px 2.5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   line-height: 1px;
   display: inline-block;
   margin-bottom: 30px;
@@ -213,7 +219,7 @@ span {
   border-spacing: 20px;
   width: 325px;
   height: 135px;
-  box-shadow: 2px 2px 2.5px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
   margin-right: 25px;
 }
@@ -243,7 +249,7 @@ span {
 
 .regions-activites {
   border-radius: 25px 25px 25px 25px;
-  box-shadow: 2px 2px 2.5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   border-spacing: 20px;
 }
 
