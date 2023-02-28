@@ -206,7 +206,7 @@ p {
 }
 
 .rightpictures {
-  width: 150px;
+  width: 45%;
   height: 135px;
   border-radius: 15px 0px 0px 15px;
 }
@@ -320,7 +320,7 @@ footer {
   body {
     font-family: "Raleway", sans-serif;
     max-width: 992px;
-    margin: 0px 50px 50px 50px;
+    margin: 0px 50px 0px 50px;
     font-size: 0.9em;
   }
   .filtres {
@@ -334,9 +334,6 @@ footer {
   #filtrs {
     margin: 15px 0px 15px 0px;
   }
-  p {
-    color: blue;
-  }
   .hotel-gauche {
     flex-direction: column;
   }
@@ -346,7 +343,7 @@ footer {
     padding-bottom: 25px;
   }
   #lespluspopulaires {
-    background-color: red;
+    background-color: #f2f2f2;
     margin-left: 0px;
     margin-top: 50px;
   }
@@ -366,16 +363,34 @@ footer {
     object-fit: cover;
   }
   .paddingtittle {
-    padding: 0 0 20px 1px;
+    padding: 0 0 20px 10px;
   }
   .regions-activites {
     margin: 15px 5px 5px 5px;
+  }
+  .hebergements-bloc-popular {
+    background-color: white;
+  }
+  .hotel-droite {
+    width: 100%;
   }
 }
 
 /* For phone: */
 
 @media screen and (max-width: 768px) {
+  body {
+    font-family: "Raleway", sans-serif;
+    max-width: 768px;
+    font-size: 1em;
+  }
+  .logobooki {
+    text-align: center;
+  }
+  nav {
+    display: flex;
+  }
+
   p {
     color: red;
   }
