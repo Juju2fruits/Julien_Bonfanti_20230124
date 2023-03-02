@@ -402,4 +402,9 @@ footer {
     height: 50px;
     border-radius: 25px 15px 0px 0px;
   }
+  .bothpictures {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px 15px 0px 0px;
+  }
 }
