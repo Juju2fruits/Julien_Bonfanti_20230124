@@ -414,6 +414,15 @@ footer {
   #search {
     justify-content: center;
   }
+
+  .mobile {
+    display: flex;
+  }
+
+  .fa-magnifying-glass {
+    display: flex;
+  }
+
   #filtrs {
     margin: 15px 0px 15px 0px;
   }
