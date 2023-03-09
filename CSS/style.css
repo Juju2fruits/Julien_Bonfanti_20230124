@@ -46,7 +46,7 @@ nav ul {
 }
 
 nav ul > li {
-  padding: 40px 30px 0 30px;
+  padding: 40px 40px 0 40px;
   border-top: 2px solid white;
 }
 
@@ -386,25 +386,21 @@ footer {
   body {
     font-family: "Raleway", sans-serif;
     max-width: 768px;
+    margin: 0px;
     font-size: 1em;
   }
   h1,
   h2 {
     font-size: 1.7em;
   }
-  h1 {
-  }
   p,
   h3 {
     font-size: 1em;
   }
-  p {
-    color: red;
-  }
   .logobooki {
-    width: 25%;
-    height: 25%;
-    margin: 50px 0px 50px 0px;
+    width: 15%;
+    height: 15%;
+    margin: 50px 250px 50px 250px;
   }
   nav ul {
     display: flex;
@@ -412,23 +408,69 @@ footer {
     margin-block-start: 0;
     justify-content: center;
   }
+  nav ul > li:hover {
+    border-bottom-color: #0065fc;
+  }
   #search {
     justify-content: center;
   }
   #filtrs {
     margin: 15px 0px 15px 0px;
   }
-
   nav {
     display: block;
     justify-content: center;
   }
-
-  .hotel-gauche {
-    display: flex;
-    flex-direction: column;
+  #hebergements {
+    margin-top: 0px;
+    background-color: white;
+    padding: 0px;
+    padding: 0px 20px 0px 20px;
   }
-}
-section > p {
-  font-size: 3em;
+  .hidemobile {
+    display: none;
+  }
+  div#hebergements-bloc > a {
+    width: 100%;
+  }
+  .leftpictures {
+    width: 100%;
+    height: 175px;
+    border-radius: 15px 15px 0px 0px;
+  }
+  .hotel-gauche {
+    margin: 25px 0px 0px 0px;
+  }
+  #hebergements-bloc-popular {
+    display: inline-block;
+  }
+  .hotel-droite {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+  #lespluspopulaires {
+    padding: 15px;
+    border-radius: 0px;
+  }
+  .regionsactivitetest > a {
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+  #activites div {
+    display: inline-block;
+    width: 100%;
+  }
+  footer {
+    margin-top: 50px;
+    padding: 30px 0 0 50px;
+    background-color: #f2f2f2;
+    line-height: 30px;
+    display: grid;
+  }
+  section > p {
+    font-size: 3em;
+  }
+  section {
+    padding: 0px 20px 0px 20px;
+  }
 }
