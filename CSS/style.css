@@ -1,7 +1,7 @@
 body {
   font-family: "Raleway", sans-serif;
   max-width: 1400px;
-  margin: auto;
+  margin: 0px 50px 0px 50px;
 }
 
 h3,
@@ -204,6 +204,7 @@ p {
   width: 45%;
   height: 135px;
   border-radius: 15px 0px 0px 15px;
+  object-fit: cover;
 }
 
 #pluspops-titre {
@@ -314,13 +315,13 @@ footer {
 @media screen and (max-width: 992px) {
   body {
     font-family: "Raleway", sans-serif;
-    max-width: 992px;
+    /*max-width: 992px;*/
     margin: 0px 50px 0px 50px;
-    font-size: 0.9em;
+    font-size: 1em;
   }
   p,
   h3 {
-    font-size: 0.75em;
+    font-size: 0.5m;
   }
   .filtres {
     font-weight: 700;
@@ -353,7 +354,7 @@ footer {
     display: flex;
   }
   #hebergements-populaires {
-    display: block;
+    flex-direction: column;
   }
   .bothpictures {
     width: 100%;
@@ -385,56 +386,81 @@ footer {
 @media screen and (max-width: 768px) {
   body {
     font-family: "Raleway", sans-serif;
-    max-width: 768px;
     margin: 0px;
-    font-size: 1em;
+    font-size: 0.9em;
   }
-  h1,
   h2 {
     font-size: 1.7em;
   }
   p,
   h3 {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .logobooki {
-    width: 15%;
-    height: 15%;
-    margin: 50px 250px 50px 250px;
+    align-self: center;
   }
-  nav ul {
-    display: flex;
-    padding-inline-start: 0;
-    margin-block-start: 0;
-    justify-content: center;
+  #booki-right > li {
+    width: 50%;
+    text-align: center;
+    padding: 0 30px 20px 30px;
+    border-top: none;
+    border-bottom: 2px solid #efefef;
   }
-  nav ul > li:hover {
+
+  #booki-right > li:hover {
     border-bottom-color: #0065fc;
   }
+
   #search {
     justify-content: center;
   }
 
-  .mobile {
-    display: flex;
+  #search input {
+    width: 80%;
   }
 
-  .fa-magnifying-glass {
-    display: flex;
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    display: inline;
+  }
+
+  #mobile i {
+    color: white;
   }
 
   #filtrs {
     margin: 15px 0px 15px 0px;
   }
-  nav {
-    display: block;
-    justify-content: center;
+
+  #filtrs span:nth-child(1) {
+    width: 100%;
+    margin-bottom: 10px;
   }
+
+  #filtrs span > a {
+    font-size: 0.85em;
+  }
+
+  .filtres {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  #hebergements-populaires {
+    flex-direction: column-reverse;
+  }
+
   #hebergements {
-    margin-top: 0px;
+    margin-top: 0;
     background-color: white;
-    padding: 0px;
-    padding: 0px 20px 0px 20px;
+    padding: 20px 20px 0 20px;
   }
   .hidemobile {
     display: none;
@@ -451,14 +477,14 @@ footer {
     margin: 25px 0px 0px 0px;
   }
   #hebergements-bloc-popular {
-    display: inline-block;
+    display: block;
   }
   .hotel-droite {
     margin-bottom: 0px;
     margin-right: 0px;
   }
   #lespluspopulaires {
-    padding: 15px;
+    padding: 20px 20px 20px 20px;
     border-radius: 0px;
   }
   .regionsactivitetest > a {
