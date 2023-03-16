@@ -315,7 +315,6 @@ footer {
 @media screen and (max-width: 992px) {
   body {
     font-family: "Raleway", sans-serif;
-    /*max-width: 992px;*/
     margin: 0px 50px 0px 50px;
     font-size: 1em;
   }
