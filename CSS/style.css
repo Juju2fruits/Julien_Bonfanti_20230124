@@ -1,7 +1,8 @@
 body {
   font-family: "Raleway", sans-serif;
-  max-width: 1400px;
-  margin: 0px 50px 0px 50px;
+  max-width: 1440px;
+  margin: auto;
+  padding: 0px 25px 0px 25px;
 }
 
 h3,
@@ -150,6 +151,11 @@ span {
   border-style: none;
 }
 
+.marginresult {
+  display: flex;
+  align-items: center;
+}
+
 /* fin header/nav */
 /* début main */
 
@@ -241,7 +247,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 15px 15px 15px 15px;
+  margin: 8px 8px 8px 8px;
 }
 
 .paddingrightpictures > p {
@@ -315,12 +321,12 @@ footer {
 @media screen and (max-width: 992px) {
   body {
     font-family: "Raleway", sans-serif;
-    margin: 0px 50px 0px 50px;
+    margin: 0px 15px 0px 15px;
     font-size: 1em;
   }
   p,
   h3 {
-    font-size: 0.85em;
+    font-size: 0.8em;
   }
   .filtres {
     font-weight: 700;
@@ -386,6 +392,7 @@ footer {
   body {
     font-family: "Raleway", sans-serif;
     margin: 0px;
+    padding: 0px;
     font-size: 0.9em;
   }
   h2 {
